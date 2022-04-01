@@ -31,4 +31,9 @@ return require('packer').startup(function()
     'nvim-lualine/lualine.nvim',
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
+
+
+  --use 'neovim/nvim-lspconfig'
+  --use 'jose-elias-alvarez/null-ls.nvim'
+  --use 'jose-elias-alvarez/nvim-lsp-ts-utils'
 end)
