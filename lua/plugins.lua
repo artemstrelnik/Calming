@@ -32,8 +32,14 @@ return require('packer').startup(function()
     requires = { 'kyazdani42/nvim-web-devicons', opt = true }
   }
 
+  use 'nvim-treesitter/nvim-treesitter'
 
-  --use 'neovim/nvim-lspconfig'
-  --use 'jose-elias-alvarez/null-ls.nvim'
-  --use 'jose-elias-alvarez/nvim-lsp-ts-utils'
+
+  use 'neovim/nvim-lspconfig'
+
+  use 'jose-elias-alvarez/null-ls.nvim'
+
+  use 'jose-elias-alvarez/nvim-lsp-ts-utils'
+
+  use 'MunifTanjim/prettier.nvim'
 end)
