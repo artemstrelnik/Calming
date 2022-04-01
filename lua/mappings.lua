@@ -28,3 +28,6 @@ nmap("<C-E>", ":NvimTreeFocus")
 
 -- Comment
 nmap("<leader>/", ":lua require('Comment.api').toggle_current_linewise()")
+
+-- formating code
+nmap("fc", ":LspFormatting")
